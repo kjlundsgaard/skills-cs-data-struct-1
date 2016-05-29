@@ -55,7 +55,7 @@ class Queue(object):
 
         # FIXME
 
-        pass
+        self._list.append(item)
 
     def peek(self):
         """Return but don't remove the first item in the queue.
@@ -74,4 +74,4 @@ class Queue(object):
 
         # FIXME
 
-        pass
+        return self._list[0]
